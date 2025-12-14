@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "invoice-dashboard"
+version = "0.1.0"
+description = "A lightweight CLI for summarizing invoice data"
+authors = [{ name = "OpenAI", email = "example@example.com" }]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+invoice-dashboard = "invoice_dashboard.dashboard:main"
