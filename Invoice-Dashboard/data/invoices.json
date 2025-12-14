@@ -1,0 +1,35 @@
+[
+  {
+    "id": "INV-1001",
+    "customer": "Acme Corp",
+    "amount": 1250.00,
+    "status": "paid",
+    "issued_on": "2024-09-01",
+    "due_on": "2024-09-15",
+    "paid_on": "2024-09-10"
+  },
+  {
+    "id": "INV-1002",
+    "customer": "Globex",
+    "amount": 890.50,
+    "status": "open",
+    "issued_on": "2024-09-05",
+    "due_on": "2024-09-20"
+  },
+  {
+    "id": "INV-1003",
+    "customer": "Initech",
+    "amount": 2300.00,
+    "status": "overdue",
+    "issued_on": "2024-08-15",
+    "due_on": "2024-08-30"
+  },
+  {
+    "id": "INV-1004",
+    "customer": "Acme Corp",
+    "amount": 540.00,
+    "status": "open",
+    "issued_on": "2024-09-10",
+    "due_on": "2024-09-25"
+  }
+]
