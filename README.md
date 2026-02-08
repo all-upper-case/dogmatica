@@ -4,7 +4,7 @@ Welcome to the **Dogmatica** repository. This project serves as a small tutorial
 
 ## Repository layout
 
-- `src/` – the source code for the `dogmatica` package.
+- `src/` – the source code for the `dogmatica` package (including a new playground helper under `dogmatica.playground`).
 - `tests/` – unit tests for the code in `src/`.
 - `docs/` – extra documentation and guides.
 - `.gitignore` – patterns for files Git should ignore.
@@ -35,3 +35,9 @@ Welcome to the **Dogmatica** repository. This project serves as a small tutorial
 
 Browse the files under `src/`, `tests/`, and `docs/` to see how a simple project is structured. Feel free to experiment—add new modules, write additional tests, or expand the documentation.
 
+
+
+## Playground area
+
+Dogmatica now includes a lightweight `Codex Playground` area exposed by `dogmatica.codex_playground()`.
+Use it as a starting point for small experiments and extend it with your own ideas over time.
